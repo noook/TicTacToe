@@ -14,6 +14,9 @@
 		F171848222B9021A0034334F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F171848022B9021A0034334F /* LaunchScreen.storyboard */; };
 		F171848D22B9021A0034334F /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F171848C22B9021A0034334F /* TicTacToeTests.swift */; };
 		F171849822B9021A0034334F /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F171849722B9021A0034334F /* TicTacToeUITests.swift */; };
+		F17184A822B909310034334F /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17184A722B909310034334F /* OfflineViewController.swift */; };
+		F17184AA22B91D8F0034334F /* tic-tac-toe-grid.png in Resources */ = {isa = PBXBuildFile; fileRef = F17184A922B91D8F0034334F /* tic-tac-toe-grid.png */; };
+		F1E0A85022BD031600138C4C /* oof.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1E0A84F22BD031600138C4C /* oof.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		F171849322B9021A0034334F /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F171849722B9021A0034334F /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		F171849922B9021A0034334F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17184A722B909310034334F /* OfflineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
+		F17184A922B91D8F0034334F /* tic-tac-toe-grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tic-tac-toe-grid.png"; sourceTree = "<group>"; };
+		F1E0A84F22BD031600138C4C /* oof.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oof.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				F171847722B902190034334F /* AppDelegate.swift */,
 				F171847922B902190034334F /* ViewController.swift */,
+				F17184A922B91D8F0034334F /* tic-tac-toe-grid.png */,
 				F171847B22B902190034334F /* Main.storyboard */,
 				F171847E22B9021A0034334F /* Assets.xcassets */,
+				F1E0A84F22BD031600138C4C /* oof.mp3 */,
 				F171848022B9021A0034334F /* LaunchScreen.storyboard */,
 				F171848322B9021A0034334F /* Info.plist */,
+				F17184A722B909310034334F /* OfflineViewController.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -229,9 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17184AA22B91D8F0034334F /* tic-tac-toe-grid.png in Resources */,
 				F171848222B9021A0034334F /* LaunchScreen.storyboard in Resources */,
 				F171847F22B9021A0034334F /* Assets.xcassets in Resources */,
 				F171847D22B902190034334F /* Main.storyboard in Resources */,
+				F1E0A85022BD031600138C4C /* oof.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17184A822B909310034334F /* OfflineViewController.swift in Sources */,
 				F171847A22B902190034334F /* ViewController.swift in Sources */,
 				F171847822B902190034334F /* AppDelegate.swift in Sources */,
 			);
