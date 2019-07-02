@@ -1,0 +1,24 @@
+PODS:
+  - RLBAlertsPickers (1.1.2)
+  - Socket.IO-Client-Swift (15.0.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.0)
+
+DEPENDENCIES:
+  - RLBAlertsPickers
+  - Socket.IO-Client-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RLBAlertsPickers
+    - Socket.IO-Client-Swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  RLBAlertsPickers: 2548943b0cb16620904cbd926a645362d1b43963
+  Socket.IO-Client-Swift: c039a808195d22a7192962841b8c035cb61ea49e
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+
+PODFILE CHECKSUM: 4ddc1a37f86813555def00ec5cf4347204b00ca5
+
+COCOAPODS: 1.7.2
